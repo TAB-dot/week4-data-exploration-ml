@@ -1,0 +1,11 @@
+One thing that really surprised me during feature engineering was seeing how much the dataset changed after encoding the categorical variables. 
+It was not easy to keep track of the target column once everything was encoded, and I found myself double-checking to make sure I did not lose sight of what mattered. 
+Deciding which features to engineer was also a challenge, because I wanted to help the model learn, not just add more noise. 
+These choices made me think carefully about what would actually help the model and what might just get in the way.
+
+​Encoding really shaped how the model performed, because it gave the model a way to make sense of the categorical variables. Without encoding, the model would have missed out on important patterns. 
+When I created new features, I noticed that the model had more to work with, and sometimes it picked up on things I did not expect. 
+Looking back, I can see that every decision I made during feature engineering had an impact, not just on accuracy, but also on how well the model could handle new data.
+
+​Next time, I think I can improve my workflow by being more systematic with feature engineering. I want to try out different encoding strategies and use feature scoring to see which features actually make a difference. 
+Applying scaling when it fits will also help. Instead of just using a train/test split, I plan to use cross-validation, because it should give me a clearer picture of how the model is really performing.
